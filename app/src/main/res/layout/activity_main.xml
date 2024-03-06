@@ -56,7 +56,7 @@
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="20dp"
             android:text="@string/_1"
             app:layout_constraintBaseline_toBaselineOf="@+id/button4"
             app:layout_constraintEnd_toStartOf="@+id/button4"
@@ -67,7 +67,7 @@
             android:id="@+id/button7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="20dp"
             android:text="@string/_4"
             app:layout_constraintBaseline_toBaselineOf="@+id/button10"
             app:layout_constraintEnd_toStartOf="@+id/button10"
@@ -126,7 +126,8 @@
             android:text="@string/_zero"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/button17"
-            app:layout_constraintStart_toEndOf="@+id/button15" />
+            app:layout_constraintStart_toEndOf="@+id/button15"
+            tools:text="@string/_0" />
 
         <Button
             android:id="@+id/button13"
@@ -142,7 +143,7 @@
             android:id="@+id/button11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="20dp"
             android:text="@string/_7"
             app:layout_constraintBaseline_toBaselineOf="@+id/button14"
             app:layout_constraintEnd_toStartOf="@+id/button14"
@@ -184,7 +185,7 @@
             android:id="@+id/button15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="20dp"
             android:text="@string/_clean"
             app:layout_constraintBaseline_toBaselineOf="@+id/button18"
             app:layout_constraintEnd_toStartOf="@+id/button18"
