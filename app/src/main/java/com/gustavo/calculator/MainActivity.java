@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
                 String[] split = textoCalc.toString().split("\\/");
                 Long primeiraParte = Long.valueOf(split[0]);
                 Long segundaParte = Long.valueOf(split[1]);
-                Long result = primeiraParte + segundaParte;
+                Long result = primeiraParte / segundaParte;
                 textView.setText(result.toString());
             }
         });
